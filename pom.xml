@@ -8,11 +8,10 @@
 		<version>2.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.App</groupId>
-	<artifactId>Scart</artifactId>
+	<groupId>com.bashe</groupId>
+	<artifactId>CanabeyApp</artifactId>
 	<version>1.0.0</version>
-	<name>Scart</name>
-	<description>Test4 springboot</description>
+	<name>CanabeyApp</name>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -68,44 +67,7 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>com.paytm</groupId>
-			<artifactId>miniapp-sdk-client</artifactId>
-			<version>1.0.2-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.paytm</groupId>
-			<artifactId>paytm-checksum</artifactId>
-			<version>1.2.0</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>taglibs</groupId>
-			<artifactId>standard</artifactId>
-			<version>1.1.2</version>
-		</dependency>
 	</dependencies>
-	
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-			<id>snapshots</id>
-			<name>libs-snapshot</name>
-			<url>https://artifactorypg.paytm.in/artifactory/libs-snapshot</url>
-		</repository>
-		<repository>
-			<id>my-repo1</id>
-			<url> https://artifactorypg.paytm.in/artifactory/libs-release </url>
-		</repository>
-	</repositories>
-
-	
 	<build>
 		<plugins>
 			<plugin>
